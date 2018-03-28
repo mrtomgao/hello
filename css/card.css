@@ -931,7 +931,7 @@ a.ui.card:hover,
       Stackable
 --------------------*/
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 500px) {
   .ui.stackable.cards {
     display: block !important;
   }
@@ -953,11 +953,6 @@ a.ui.card:hover,
 @media screen and (max-width: 768px) {
     .ui.cards > .card {
         font-size: 1em;
-    }
-}
-@media screen and (max-width: 500px) { 
-    .ui.cards > .card {
-        font-size: 0.6em;
     }
 }
 
