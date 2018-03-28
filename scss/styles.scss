@@ -1004,7 +1004,13 @@ footer {
     width: 85%; /* Could be more or less, depending on screen size */
 }
 .modal-closebtn {
-    font-size: 1.1em;
+
+    @media screen and (max-width: 768px) { 
+        font-size: 1.1em;
+    }
+    @media screen and (max-width: 500px) { 
+        font-size: 0.8em;
+    }
     font-weight: 300;
     color: white;
     position: relative;  
