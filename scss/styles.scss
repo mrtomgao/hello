@@ -1051,7 +1051,7 @@ footer {
     width: 85%; /* Could be more or less, depending on screen size */
 }
 .modal-closebtn {
-    font-size: 1.2em;
+    font-size: 1.1em;
     font-weight: 300;
     color: white;
     position: relative;  
@@ -1060,4 +1060,57 @@ footer {
     background: #4c4c4c;
     padding: 10px; 
     cursor: pointer;
+}
+
+#articles {
+    padding: 50px 15px;
+    border-bottom: 1px solid $border;
+    text-align: center;
+
+    h2 {
+        color: $heading;
+        margin-bottom: 50px;
+    }
+    article
+    {
+        padding-bottom: 20px;
+    }
+    .article-caption
+    {
+    position: absolute;
+    bottom: 16px;
+    max-width: 90%;
+    text-align: left;
+    background-color: rgba(38,38,38,0.5);
+    }
+
+    .article-img
+    {
+    width: 100%; 
+    max-height: 400px;
+    object-fit: cover;
+    }
+
+
+    @media screen and (max-width: 768px) { 
+    .article-title
+    {
+    font-size: 28px;
+    }
+    }
+
+    @media screen and (max-width: 500px) { 
+    .article-title
+    {
+    font-size: 20px;
+    }
+    }
+
+    .article-caption a
+    {
+    color: white;
+    }
+    .article-intro {
+        text-align: left;
+    }
 }

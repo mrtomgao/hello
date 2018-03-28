@@ -5,7 +5,7 @@
 */
 
 $(document).ready(function () {
-    $(".card").click(function(){  
+    $(".mdl").click(function () {
         $("#modalProject").show();
         $("#iframe1").attr("src", $(this).attr("href"));
         return false;
