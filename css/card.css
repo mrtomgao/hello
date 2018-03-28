@@ -950,10 +950,18 @@ a.ui.card:hover,
 /*--------------
       Size
 ---------------*/
-
-.ui.cards > .card {
-  font-size: 1em;
+@media screen and (max-width: 768px) {
+    .ui.cards > .card {
+        font-size: 1em;
+    }
 }
+@media screen and (max-width: 500px) { 
+    .ui.cards > .card {
+        font-size: 0.6em;
+    }
+}
+
+
 
 
 /*******************************
