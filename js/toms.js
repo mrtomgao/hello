@@ -15,6 +15,11 @@ $(document).ready(function () {
         $("#modalPicture").show();
         return false;
     });
+    
+    $("#myBtn2").click(function () {
+        $("#modalPicture2").show();
+        return false;
+    });
 
     window.onclick = function (event) {
         $("#modalPicture").hide();
